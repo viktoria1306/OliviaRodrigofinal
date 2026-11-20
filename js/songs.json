@@ -1,0 +1,20 @@
+[
+  {
+    "title": "drop dead",
+    "destination": "https://youtu.be/78wrful9cVU?si=f2OyRoyJlOSEOPnO",
+    "description": "Track 01,Olivia takes her work so seriously that she filmed at the Palace of Versailles itself..",
+    "image": "img/drop-dead.jpg"
+  },
+  {
+    "title": "stupid song",
+    "destination": "https://youtu.be/Rt9tW3cMLhI?si=0qGF4h_m9-99JAdb",
+    "description": "Track 02 of the album, ballerinas, new york and rock and roll.",
+    "image": "img/stupid-song.jpg"
+  },
+  {
+    "title": "the cure",
+    "destination": "https://youtu.be/B402rKl4bUg?si=YBXJ9zxyHy5QZrwg",
+    "description": "Track 08, the song nominated for Song of the Year at the Grammy Awards.",
+    "image": "img/olivia-2.jpg"
+  }
+]

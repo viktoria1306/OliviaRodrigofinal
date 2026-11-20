@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=DM+Sans:wght@400;700&display=swap');
+
+:root {
+  --color-principal: #e8a0b5;
+  --color-principal-oscuro: #c9708a;
+  --color-secundario: #8faac8;
+  --color-verde: #5c7f3a;
+  --color-claro: #f6ede3;
+  --color-fondo-claro: #ffe9f1;
+  --color-texto-oscuro: #1a1410;
+  --color-rosa-texto: #a3395a;
+  --color-fondo-oscuro: #1a1410;
+  --color-fondo-imagen: #1a1410;
+  --color-fila-hover: #f3bccb;
+  --color-texto-boton: #1a1410;
+  --color-texto-modal: #1a1410;
+
+  --fuente-titulos: "Emilys Candy", serif;
+  --fuente-texto: "DM Sans", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--fuente-texto);
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: var(--color-fondo-claro) !important;
+  color: var(--color-texto-oscuro) !important;
+}
+
+h1,
+h2,
+.navbar-brand {
+  font-family: var(--fuente-titulos);
+}
+
+h2,
+.h4 {
+  font-size: 2.2rem;
+}
+
+.display-3 {
+  font-size: 3.5rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: var(--color-principal);
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: var(--color-claro);
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--color-principal);
+}
+
+header h1 {
+  line-height: 1.3;
+}
+
+header h1 span {
+  font-size: 2.5rem;
+}
+
+strong {
+  font-weight: 700;
+}
+
+nav.navbar,
+header {
+  background-color: #000000 !important;
+  color: var(--color-claro) !important;
+}
+
+main,
+main .container,
+main .container-fluid,
+main section,
+main .row,
+main [class*="col-"],
+.bg-dark,
+.bg-black {
+  background-color: var(--color-fondo-claro) !important;
+  color: var(--color-texto-oscuro) !important;
+}
+
+nav.navbar.bg-dark,
+nav.navbar.bg-black,
+header.bg-dark,
+header.bg-black,
+footer.bg-dark,
+footer.bg-black {
+  background-color: #000000 !important;
+  color: var(--color-claro) !important;
+}
+
+.text-light {
+  color: var(--color-claro) !important;
+}
+
+main .text-light {
+  color: var(--color-texto-oscuro) !important;
+}
+
+.text-secondary {
+  color: var(--color-secundario) !important;
+}
+
+.text-danger {
+  color: var(--color-principal) !important;
+}
+
+.border-danger {
+  border-color: var(--color-principal) !important;
+}
+
+.border-secondary {
+  border-color: var(--color-secundario) !important;
+}
+
+.btn-danger {
+  background-color: var(--color-principal);
+  border-color: var(--color-principal-oscuro);
+  color: var(--color-texto-boton);
+  transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: var(--color-principal-oscuro);
+  border-color: var(--color-principal-oscuro);
+  color: var(--color-texto-boton);
+}
+
+.btn-outline-danger {
+  border-color: var(--color-principal);
+  color: var(--color-principal);
+  transition: all 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+  background-color: var(--color-principal);
+  border-color: var(--color-principal);
+  color: var(--color-texto-boton);
+}
+
+
+#tracklist-container .card {
+  background-color: var(--color-fondo-claro) !important;
+  color: var(--color-texto-oscuro) !important;
+  border-color: var(--color-verde);
+}
+
+
+.img-fluid {
+  width: 100%;
+  padding: 5px;
+  background-color: var(--color-fondo-imagen);
+  max-height: 420px;
+  object-fit: contain;
+}
+
+
+#songs .d-flex {
+  transition: all 0.3s ease;
+}
+
+#songs .d-flex:hover {
+  background-color: var(--color-secundario) !important;
+  color: var(--color-texto-oscuro) !important;
+}
+
+#songs .d-flex:hover p,
+#songs .d-flex:hover span {
+  color: var(--color-texto-oscuro) !important;
+}
+
+
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-secundario);
+}
+
+
+.modal-content {
+  background-color: var(--color-fondo-claro);
+  color: var(--color-texto-modal);
+}
+
+.modal-title {
+  color: var(--color-rosa-texto);
+}
+
+
+footer {
+  background-color: #000000 !important;
+  color: var(--color-claro) !important;
+  font-size: 0.95rem;
+}
